@@ -8,9 +8,12 @@
     </ul>  
     <h1 class="mt80">React.js Chart Library</h1>
     <ul class="menu">
-      <li><a href="https://zeencharts.netlify.app/ChartsPage/RechartsPage">Recharts</a></li>
-      <li><a href="https://zeencharts.netlify.app/ChartsPage/ReactChartjs2Page">react-charts-2</a></li>
-      <li><a href="https://zeencharts.netlify.app/ChartsPage/NivoPage">Nivo</a></li>
+      <li><a href="https://
+zeen-react-charts.netlify.app/ChartsPage/RechartsPage">Recharts</a></li>
+      <li><a href="https://
+zeen-react-charts.netlify.app/ChartsPage/ReactChartjs2Page">react-charts-2</a></li>
+      <li><a href="https://
+zeen-react-charts.netlify.app/ChartsPage/NivoPage">Nivo</a></li>
     </ul>  
   </div>
 </template>

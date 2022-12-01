@@ -2,36 +2,43 @@
   {
     "name": "ChartsPage-Apexcharts",
     "path": "/ChartsPage/Apexcharts",
-    "component": "/Users/yanadoo_zinny/Documents/study/nuxt_chart_practice/pages/ChartsPage/Apexcharts/index.vue",
+    "component": "/Users/yanadoo/Documents/study/vue-charts/pages/ChartsPage/Apexcharts/index.vue",
     "chunkName": "pages/ChartsPage/Apexcharts/index",
-    "_name": "_00bfcf23"
+    "_name": "_09aed862"
   },
   {
     "name": "ChartsPage-ChartInfo",
     "path": "/ChartsPage/ChartInfo",
-    "component": "/Users/yanadoo_zinny/Documents/study/nuxt_chart_practice/pages/ChartsPage/ChartInfo.vue",
+    "component": "/Users/yanadoo/Documents/study/vue-charts/pages/ChartsPage/ChartInfo.vue",
     "chunkName": "pages/ChartsPage/ChartInfo",
-    "_name": "_31f1c293"
+    "_name": "_fecddb98"
   },
   {
     "name": "ChartsPage-Chartjs",
     "path": "/ChartsPage/Chartjs",
-    "component": "/Users/yanadoo_zinny/Documents/study/nuxt_chart_practice/pages/ChartsPage/Chartjs/index.vue",
+    "component": "/Users/yanadoo/Documents/study/vue-charts/pages/ChartsPage/Chartjs/index.vue",
     "chunkName": "pages/ChartsPage/Chartjs/index",
-    "_name": "_c377c65e"
+    "_name": "_b8ee981c"
+  },
+  {
+    "name": "ChartsPage-Echarts",
+    "path": "/ChartsPage/Echarts",
+    "component": "/Users/yanadoo/Documents/study/vue-charts/pages/ChartsPage/Echarts/index.vue",
+    "chunkName": "pages/ChartsPage/Echarts/index",
+    "_name": "_7b99f0f6"
   },
   {
     "name": "ChartsPage-Highcharts",
     "path": "/ChartsPage/Highcharts",
-    "component": "/Users/yanadoo_zinny/Documents/study/nuxt_chart_practice/pages/ChartsPage/Highcharts/index.vue",
+    "component": "/Users/yanadoo/Documents/study/vue-charts/pages/ChartsPage/Highcharts/index.vue",
     "chunkName": "pages/ChartsPage/Highcharts/index",
-    "_name": "_3509e3a3"
+    "_name": "_3df8ece2"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/Users/yanadoo_zinny/Documents/study/nuxt_chart_practice/pages/index.vue",
+    "component": "/Users/yanadoo/Documents/study/vue-charts/pages/index.vue",
     "chunkName": "pages/index",
-    "_name": "_17633710"
+    "_name": "_0eb68ce2"
   }
 ]

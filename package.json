@@ -13,11 +13,13 @@
     "apexcharts": "^3.36.3",
     "chart.js": "^3.9.1",
     "core-js": "^3.25.3",
+    "echarts": "^5.4.0",
     "highcharts-vue": "^1.4.0",
     "nuxt": "^2.15.8",
     "vue": "^2.7.10",
     "vue-apexcharts": "^1.6.2",
     "vue-chartjs": "^4.1.2",
+    "vue-echarts": "^6.2.3",
     "vue-server-renderer": "^2.7.10",
     "vue-template-compiler": "^2.7.10"
   }

@@ -1,6 +1,6 @@
 <template>
   <div class="apexchartsWrapper">
-    <chart-info :title="info.title" :desc="info.desc" />
+    <chart-info :info="info" />
     <div class="btnWrap mb30">
       <a class="btnGoToWeb" href="https://apexcharts.com/vue-chart-demos/" title="apexcharts" target="_blank">Apexcharts 문서</a>
     </div>
@@ -20,10 +20,7 @@ export default {
   components: { LineChart, BarChart, ChartInfo },
   data() {
     return {
-      info: {
-        title: data.CHART.apexcharts.title,
-        desc: data.CHART.apexcharts.desc.replaceAll(/\n/g, '<br/>')
-      }
+      info: data.CHART.apexcharts
     }
   }
 }

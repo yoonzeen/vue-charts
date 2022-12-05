@@ -1,4 +1,10 @@
 {
+  "HighchartsBarChart": {
+    "description": "Auto imported from components/Highcharts/BarChart.vue"
+  },
+  "HighchartsDoughnutChart": {
+    "description": "Auto imported from components/Highcharts/DoughnutChart.vue"
+  },
   "ApexchartsBarChart": {
     "description": "Auto imported from components/Apexcharts/BarChart.vue"
   },
@@ -16,14 +22,5 @@
   },
   "ChartjsLineChart": {
     "description": "Auto imported from components/Chartjs/LineChart.vue"
-  },
-  "EchartsLineChart": {
-    "description": "Auto imported from components/Echarts/LineChart.vue"
-  },
-  "HighchartsBarChart": {
-    "description": "Auto imported from components/Highcharts/BarChart.vue"
-  },
-  "HighchartsDoughnutChart": {
-    "description": "Auto imported from components/Highcharts/DoughnutChart.vue"
   }
 }

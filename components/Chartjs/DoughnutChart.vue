@@ -20,22 +20,25 @@ export default {
     data() {
         return {
             chartData: {
-                labels: [ 'January', 'February', 'March' ],
+                labels: [ 'true', 'false', ],
                 datasets: [ { 
-                label: 'sales', 
-                data: [40, 20, 12],
-                backgroundColor: ['#00CC66', '#66cc00', '#333'],
-                cutout:'90%'
-                } ]
+                    label: 'sales', 
+                    data: [40, 60],
+                    backgroundColor: ['#00CC66', '#333'],
+                    cutout:'90%',
+                } ],
             },
             chartOptions: {
                 responsive: true,
                 plugins: {
-                    legend: 'month',
+                    title:'40%',
                     tooltip: {
                         backgroundColor: '#239EC3',
+                    },
+                    datalabels: {
+                        color:'red'
                     }
-                }
+                },
             },
         }
     }

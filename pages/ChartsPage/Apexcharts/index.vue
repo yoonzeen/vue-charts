@@ -6,6 +6,7 @@
     </div>
     <BarChart />
     <LineChart />
+    <DoughnutChart />
   </div>
 </template>
 
@@ -14,10 +15,11 @@ import LineChart from '@/components/Apexcharts/LineChart.vue';
 import BarChart from '@/components/Apexcharts/BarChart.vue';
 import ChartInfo from '@/pages/ChartsPage/ChartInfo.vue';
 import data from '@/assets/data/chartProps.js'
+import DoughnutChart from '../../../components/Apexcharts/DoughnutChart.vue';
 
 export default {
   name: "Apexcharts",
-  components: { LineChart, BarChart, ChartInfo },
+  components: { LineChart, BarChart, ChartInfo, DoughnutChart },
   data() {
     return {
       info: {

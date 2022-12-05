@@ -19,19 +19,20 @@ export default {
                     size: '100%',
                     innerSize: '95%',
                     data: [
-                        { name: 'ball', y: 80, color:'#00cc66' },
+                        { name: 'notebook', y: 80, color:'#00cc66' },
                         { name: 'none', y:20}
                     ],
                     dataLabels: {
-                        enabled: true,
-                        formatter: () => {
-                            console.log(this);                        }
+                        enabled: true,               
                     }
+                    
                 }],
                 plotOptions: {
                     pie: {
-                        center: ['50%', '50%'],
                     }
+                },
+                tooltip: {
+                    valueSuffix: '%'
                 }
             }
         }

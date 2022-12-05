@@ -12,7 +12,7 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_398d5399 from 'nuxt_plugin_plugin_398d5399' // Source: ./components/plugin.js (mode: 'all')
+import nuxt_plugin_plugin_9359e910 from 'nuxt_plugin_plugin_9359e910' // Source: ./components/plugin.js (mode: 'all')
 import nuxt_plugin_chart_48b5b2cf from 'nuxt_plugin_chart_48b5b2cf' // Source: ../plugins/chart.js (mode: 'client')
 import nuxt_plugin_apexcharts_475acaea from 'nuxt_plugin_apexcharts_475acaea' // Source: ../plugins/apexcharts.js (mode: 'client')
 import nuxt_plugin_highcharts_7c46c66a from 'nuxt_plugin_highcharts_7c46c66a' // Source: ../plugins/highcharts.js (mode: 'client')
@@ -179,8 +179,8 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_398d5399 === 'function') {
-    await nuxt_plugin_plugin_398d5399(app.context, inject)
+  if (typeof nuxt_plugin_plugin_9359e910 === 'function') {
+    await nuxt_plugin_plugin_9359e910(app.context, inject)
   }
 
   if (process.client && typeof nuxt_plugin_chart_48b5b2cf === 'function') {

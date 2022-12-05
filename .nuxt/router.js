@@ -4,12 +4,12 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _09aed862 = () => interopDefault(import('../pages/ChartsPage/Apexcharts/index.vue' /* webpackChunkName: "pages/ChartsPage/Apexcharts/index" */))
-const _fecddb98 = () => interopDefault(import('../pages/ChartsPage/ChartInfo.vue' /* webpackChunkName: "pages/ChartsPage/ChartInfo" */))
-const _b8ee981c = () => interopDefault(import('../pages/ChartsPage/Chartjs/index.vue' /* webpackChunkName: "pages/ChartsPage/Chartjs/index" */))
-const _7b99f0f6 = () => interopDefault(import('../pages/ChartsPage/Echarts/index.vue' /* webpackChunkName: "pages/ChartsPage/Echarts/index" */))
-const _3df8ece2 = () => interopDefault(import('../pages/ChartsPage/Highcharts/index.vue' /* webpackChunkName: "pages/ChartsPage/Highcharts/index" */))
-const _0eb68ce2 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _00bfcf23 = () => interopDefault(import('../pages/ChartsPage/Apexcharts/index.vue' /* webpackChunkName: "pages/ChartsPage/Apexcharts/index" */))
+const _31f1c293 = () => interopDefault(import('../pages/ChartsPage/ChartInfo.vue' /* webpackChunkName: "pages/ChartsPage/ChartInfo" */))
+const _c377c65e = () => interopDefault(import('../pages/ChartsPage/Chartjs/index.vue' /* webpackChunkName: "pages/ChartsPage/Chartjs/index" */))
+const _86231f38 = () => interopDefault(import('../pages/ChartsPage/Echarts/index.vue' /* webpackChunkName: "pages/ChartsPage/Echarts/index" */))
+const _3509e3a3 = () => interopDefault(import('../pages/ChartsPage/Highcharts/index.vue' /* webpackChunkName: "pages/ChartsPage/Highcharts/index" */))
+const _17633710 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -24,27 +24,27 @@ export const routerOptions = {
 
   routes: [{
     path: "/ChartsPage/Apexcharts",
-    component: _09aed862,
+    component: _00bfcf23,
     name: "ChartsPage-Apexcharts"
   }, {
     path: "/ChartsPage/ChartInfo",
-    component: _fecddb98,
+    component: _31f1c293,
     name: "ChartsPage-ChartInfo"
   }, {
     path: "/ChartsPage/Chartjs",
-    component: _b8ee981c,
+    component: _c377c65e,
     name: "ChartsPage-Chartjs"
   }, {
     path: "/ChartsPage/Echarts",
-    component: _7b99f0f6,
+    component: _86231f38,
     name: "ChartsPage-Echarts"
   }, {
     path: "/ChartsPage/Highcharts",
-    component: _3df8ece2,
+    component: _3509e3a3,
     name: "ChartsPage-Highcharts"
   }, {
     path: "/",
-    component: _0eb68ce2,
+    component: _17633710,
     name: "index"
   }],
 

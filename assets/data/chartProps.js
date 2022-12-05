@@ -23,8 +23,14 @@ const highcharts = {
         - 브라우저에서 각 차트의 svg, png, csv 등 여러 버전으로 차트 내보내기 가능
         `,
 };
-        
+const echarts = {
+    title: 'ECharts',
+    desc: 
+    `- Apache에서 제공하는 chart 라이브러리
+     - 
+    `
+}        
 
 export default {
-    CHART: {chartjs, apexcharts, highcharts }
+    CHART: {chartjs, apexcharts, highcharts, echarts }
 }

@@ -1,6 +1,6 @@
 <template>
   <div class="highchartsWrapper">
-    <chart-info :title="info.title" :desc="info.desc" />
+    <chart-info :info="info" />
     <div class="btnWrap mb30">
       <a class="btnGoToWeb" style="width:170px" href="https://github.com/highcharts/highcharts-vue?ref=madewithvuejs.com" title="HighCharts" target="_blank">Highcharts-Vue github</a>
       <a class="btnGoToWeb" href="https://www.highcharts.com/blog/tutorials/highcharts-vue-wrapper/" title="HighCharts" target="_blank">Highcharts 문서</a>
@@ -19,11 +19,7 @@ export default {
   components: { ChartInfo, BarChart, DoughnutChart },
   data() {
     return {
-      info: {
-        title: data.CHART.highcharts.title,
-        desc: data.CHART.highcharts.desc.replaceAll(/\n/g, '<br/>')
-        },
-      
+      info: data.CHART.highcharts
     }
   }
 }

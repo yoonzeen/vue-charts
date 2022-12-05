@@ -12,5 +12,6 @@ You can directly use them in pages and other components without the need to impo
 - `<ChartjsBarChart>` | `<chartjs-bar-chart>` (components/Chartjs/BarChart.vue)
 - `<ChartjsDoughnutChart>` | `<chartjs-doughnut-chart>` (components/Chartjs/DoughnutChart.vue)
 - `<ChartjsLineChart>` | `<chartjs-line-chart>` (components/Chartjs/LineChart.vue)
+- `<EchartsLineChart>` | `<echarts-line-chart>` (components/Echarts/LineChart.vue)
 - `<HighchartsBarChart>` | `<highcharts-bar-chart>` (components/Highcharts/BarChart.vue)
 - `<HighchartsDoughnutChart>` | `<highcharts-doughnut-chart>` (components/Highcharts/DoughnutChart.vue)

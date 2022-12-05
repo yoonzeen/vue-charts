@@ -17,6 +17,9 @@
   "ChartjsLineChart": {
     "description": "Auto imported from components/Chartjs/LineChart.vue"
   },
+  "EchartsLineChart": {
+    "description": "Auto imported from components/Echarts/LineChart.vue"
+  },
   "HighchartsBarChart": {
     "description": "Auto imported from components/Highcharts/BarChart.vue"
   },

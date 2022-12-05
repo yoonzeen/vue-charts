@@ -4,6 +4,7 @@ export { default as ApexchartsLineChart } from '../../components/Apexcharts/Line
 export { default as ChartjsBarChart } from '../../components/Chartjs/BarChart.vue'
 export { default as ChartjsDoughnutChart } from '../../components/Chartjs/DoughnutChart.vue'
 export { default as ChartjsLineChart } from '../../components/Chartjs/LineChart.vue'
+export { default as EchartsLineChart } from '../../components/Echarts/LineChart.vue'
 export { default as HighchartsBarChart } from '../../components/Highcharts/BarChart.vue'
 export { default as HighchartsDoughnutChart } from '../../components/Highcharts/DoughnutChart.vue'
 
